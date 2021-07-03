@@ -1,3 +1,73 @@
-p {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(a/background.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.manu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: yellow;
+  font-size: 13px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+}
+h1{
+  color: white;
+  font-size: 90px;
+}
+p{
+  color: white;
+}
+.button{
+  width: 100px;
+  color: #000;
+  font-size: 12px;
+  background:yellow;
+  border: 0;
+  padding: 12px 0;
+  border-radius: 30px;
+  outline: none;
+  margin-top: 30px;
 }
